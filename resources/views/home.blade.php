@@ -1,7 +1,28 @@
 <x-layout>
     <main class="w-full">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex max-w-4xl mx-auto my-40">
+                <div class="text-7xl uppercase font-thin text-blue1 leading-snug tracking-wide">
+                    <p>
+                        Unlocking Value 
+                    </p>
+                    <p>
+                        Through Strategic   
+                    </p>
+                    <p>
+                        Investments  
+                    </p>
+                </div>  
+                <button class="uppercase text-black font-bold text-base border-dashed border-2 border-black w-36 h-20 rounded-full">
+                    <div class="">
+                        <p>partner</p>
+                        <p>with us</p>
+                    </div>
+                </button>
+            </div>
+        </div>
         <div class="bg-blue2">
-            <section class="max-w-6xl mx-auto flex gap-36 items-center py-32">
+            <section class="max-w-7xl mx-auto px-20 flex gap-36 items-center py-32">
                 <div class="flex-shrink-0">
                     <img src="{{asset('images/nxtlevel_logo_white.png')}}" alt="" class="w-[183px] h-[218px]">
                 </div>
@@ -9,21 +30,19 @@
                     <div class="font-bold text-2xl"> 
                         <p>WHO WE ARE</p>
                     </div>
-                    <div class="text-sm max-w-lg font-normal tracking-wide leading-6">
+                    <div class="text-sm max-w-2xl font-normal tracking-wide leading-6">
                         <p>Next-Level Capital is a leading investment firm specializing in high-return opportunities within the real estate and infrastructure sectors. Our deep market expertise, coupled with a proven track record, makes us the ideal partner for investors seeking to maximize
                              returns while contributing to the growth of thriving communities.</p>
                     </div>
-                   <button class="uppercase border boreder-white rounded-full">
-                    <p class="px-14 py-3">
-                        work wtih us
-                    </p>
-                   </button>
+                    <x-button1 class="border-white ">
+                        Work with us
+                     </x-button1>
                 </div>
             </section>
         </div>
-        <section class="max-w-4xl mx-auto py-28">
+        <section class="max-w-7xl mx-auto py-28 px-20">
             <div>
-                <p class="font-thin font-font text-4xl tracking-widest pl-7">our focus</p>
+                <p class="font-thin font-font text-4xl tracking-widest">our focus</p>
                 <div>
                     <div class="flex justify-between pt-14">
                         <div class="space-y-5">
@@ -53,7 +72,7 @@
         <section class="w-full">
             <img src="{{asset('Nxtlevel/diverse-team-of-architects-working-with-smartphone-2023-11-27-05-13-45-utc.JPG')}}" alt="picture" class="h-[610px] object-cover object-center w-full">
         </section>
-        <section class="max-w-6xl mx-auto py-28 px-6">
+        <section class="max-w-7xl mx-auto py-28 px-20">
             <div class="flex justify-between">
                 <div class="space-y-4">
                     <p class="font-bold text-xl tracking-wide">Why Choose Next-<br>Level Capital</p>
@@ -86,7 +105,7 @@
             </div>
         </section>
         <section class="bg-cover bg-center h-[1150px] bg-blend-overlay bg-black/60" style="background-image: url('/images/edited\ copy.jpg');">
-            <div class="max-w-6xl mx-auto py-24">
+            <div class="max-w-7xl px-20 mx-auto py-24">
                 <div class="flex flex-col text-white max-w-xl space-y-16">
                     <div class="space-y-4">
                         <p class="font-bold text-xl">
@@ -145,17 +164,9 @@
                 </div>
             </div>
         </section>
-        <section class="w-full">
-            <div class="max-w-6xl mx-auto h-[500px] py-24 flex justify-between text-5xl font-bold items-center leading-snug">
-                <p>Fueling Visions <br>with Strategic<br> Capital</p>
-                <button class="uppercase text-black font-bold text-base  border-2 border-black w-36 h-20 rounded-full">
-                    <div class="">
-                        <p>partner</p>
-                        <p>with us</p>
-                    </div>
-                </button>
-            </div>
-        </section>
+       <x-section>
+           <p>Fueling Visions <br>with Strategic<br> Capital</p>
+       </x-section>
     </main>
 </x-layout>
 

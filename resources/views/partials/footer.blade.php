@@ -1,5 +1,5 @@
 <footer class="bg-black">
-    <div class="max-w-6xl mx-auto py-20">
+    <div class="max-w-7xl px-20 mx-auto py-20">
         <div class="italic text-white font-bold text-3xl space-y-3">
             <div class="flex items-center space-x-2">
                 <p>Real Estate</p>

@@ -12,8 +12,9 @@ export default {
         gray1: "#767676",
         blue2: "#081B4B"
       },
-      fontFamily:{
-        font:[ 'Montserrat, system-ui sans-serif']
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        mulish: ['Mulish', 'sans-serif'],
       },
       
     },
