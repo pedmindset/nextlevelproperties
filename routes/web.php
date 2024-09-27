@@ -16,3 +16,6 @@ Route::get('/real-estate', function(){
 Route::get('/Infrastructure', function(){
     return view('infras');
 });
+Route::get('/contact', function(){
+    return view('contact');
+});

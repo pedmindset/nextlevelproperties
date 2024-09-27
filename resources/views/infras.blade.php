@@ -5,7 +5,7 @@
                 <img src="{{ asset('images/nxtlevel_logo_white.png') }}" alt="companylogo">
             </a>
         </x-nav> 
-        <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div>
+        <div class="border-r-2 border-r-white h-20 absolute top-0 left-44"></div>
         <div class="absolute inset-0 w-full h-screen object-cover -z-10 ">
             <img src="{{asset('Nxtlevel/kai-tak-hong-kong-12-may-2019-top-view-of-hong-k-2023-11-27-05-34-46-utc.jpg')}}" alt="" class="object-cover h-full w-full">
             <div class="absolute inset-0 bg-black opacity-55 mix-blend-multiply"></div>
