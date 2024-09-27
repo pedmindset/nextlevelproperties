@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('about');
  });
 
-Route::get('/real estate', function(){
+Route::get('/real-estate', function(){
     return view('real');
+});
+
+Route::get('/Infrastructure', function(){
+    return view('infras');
 });

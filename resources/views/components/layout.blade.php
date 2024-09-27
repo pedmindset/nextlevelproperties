@@ -8,7 +8,7 @@
     <link rel="icon" href="{{ asset('images/nxtlevel_logo.png') }}" type="image/x-icon">
 </head>
 <body class="font-montserrat">
-    @include('partials.header')
+
     {{$slot}}
     @include('partials.footer')
 </body>

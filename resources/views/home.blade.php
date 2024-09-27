@@ -1,7 +1,16 @@
 <x-layout>
-    <main class="w-full">
+    <x-header> 
+        <x-nav>
+            <a href="/" class ="w-14 h-14">
+                <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
+            </a>
+        </x-nav> 
+        <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div>
+        <video autoplay muted loop class="absolute inset-0 w-full h-screen object-cover -z-10">
+            <source src="{{asset('Nxtlevel/abstract-loop-flowing-curve-white.mp4')}}" type="video/mp4">
+        </video>
         <div class="max-w-7xl mx-auto">
-            <div class="flex max-w-4xl mx-auto my-40">
+            <div class="flex max-w-4xl mx-auto mt-12 py-14">
                 <div class="text-7xl uppercase font-thin text-blue1 leading-snug tracking-wide">
                     <p>
                         Unlocking Value 
@@ -21,6 +30,8 @@
                 </button>
             </div>
         </div>
+    </x-header>
+    <main class="w-full">
         <div class="bg-blue2">
             <section class="max-w-7xl mx-auto px-20 flex gap-36 items-center py-32">
                 <div class="flex-shrink-0">
@@ -46,7 +57,7 @@
                 <div>
                     <div class="flex justify-between pt-14">
                         <div class="space-y-5">
-                            <p class="uppercase font-bold text-lg px-6">real estate</p>
+                            <p class="uppercase font-bold text-base px-6">real estate</p>
                             <div class="border-l-2 border-b-2 border-dashed border-black px-6 py-6 space-y-7">
                                 <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential, 
                                     commercial, and mixed-use properties.</p>
@@ -56,7 +67,7 @@
                             </div>
                         </div>
                         <div class="space-y-5">
-                            <p class="uppercase font-bold text-lg px-6">infrastructure</p>
+                            <p class="uppercase font-bold text-base px-6">infrastructure</p>
                             <div class="border-l-2 border-b-2 border-dashed border-black px-6 py-6 space-y-7">
                                 <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential, 
                                     commercial, and mixed-use properties.</p>
@@ -166,6 +177,12 @@
         </section>
        <x-section>
            <p>Fueling Visions <br>with Strategic<br> Capital</p>
+           <x-button2>
+           <div class="">
+                <p>partner</p>
+                <p>with us</p>
+            </div>
+           </x-button2>
        </x-section>
     </main>
 </x-layout>
