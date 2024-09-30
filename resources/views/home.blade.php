@@ -1,5 +1,5 @@
 <x-layout>
-    <x-header>
+    <x-header class="h-screen">
         <x-nav>
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
                 <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
