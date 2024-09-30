@@ -1,8 +1,8 @@
 <nav {{$attributes ->merge(['class'=>'max-w-7xl mx-auto px-6 py-0 flex justify-between'])}}>
-                <div class="flex items-center space-x-10">
+                <div class="flex items-center space-x-10 text-gray-700">
                   {{$slot}}
-                    <ul {{$attributes ->merge(['class'=>'uppercase pb-8 pt-12 flex space-x-6 text-sm font-semibold text-gray1'])}}>
-                        <li>
+                    <ul {{$attributes ->merge(['class'=>'uppercase pb-8 pt-12 md:flex space-x-6 text-sm font-semibold hidden'])}}>
+                        <li class="hidden md:block">
                             <a href="/about">About Us</a>
                         </li>
                         <li>
