@@ -1,11 +1,12 @@
 <x-layout>
-    <x-header> 
+    <x-header>
         <x-nav>
-            <a href="/" class ="w-14 h-14">
+            <a href="/" class ="w-28 h-full flex items-center pr-10 border-r border-gray-300">
                 <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
             </a>
-        </x-nav> 
-        <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div>
+              {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
+        </x-nav>
+
         <video autoplay muted loop class="absolute inset-0 w-full h-screen object-cover -z-10">
             <source src="{{asset('Nxtlevel/abstract-loop-flowing-curve-white.mp4')}}" type="video/mp4">
         </video>
@@ -13,15 +14,15 @@
             <div class="flex max-w-4xl mx-auto mt-12 py-14">
                 <div class="text-7xl uppercase font-thin text-blue1 leading-snug tracking-wide">
                     <p>
-                        Unlocking Value 
+                        Unlocking Value
                     </p>
                     <p>
-                        Through Strategic   
+                        Through Strategic
                     </p>
                     <p>
-                        Investments  
+                        Investments
                     </p>
-                </div>  
+                </div>
                 <button class="uppercase text-black font-bold text-base border-dashed border-2 border-black w-36 h-20 rounded-full">
                     <div class="">
                         <p>partner</p>
@@ -38,7 +39,7 @@
                     <img src="{{asset('images/nxtlevel_logo_white.png')}}" alt="" class="w-[183px] h-[218px]">
                 </div>
                 <div class="text-white space-y-10">
-                    <div class="font-bold text-2xl"> 
+                    <div class="font-bold text-2xl">
                         <p>WHO WE ARE</p>
                     </div>
                     <div class="text-sm max-w-2xl font-normal tracking-wide leading-6">
@@ -59,7 +60,7 @@
                         <div class="space-y-5">
                             <p class="uppercase font-bold text-base px-6">real estate</p>
                             <div class="border-l-2 border-b-2 border-dashed border-black px-6 py-6 space-y-7">
-                                <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential, 
+                                <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential,
                                     commercial, and mixed-use properties.</p>
                                 <button type="button" class="rounded-full px-10 py-2.5 text-sm font-semibold uppercase   border-black border   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200">
                                     learn more
@@ -69,7 +70,7 @@
                         <div class="space-y-5">
                             <p class="uppercase font-bold text-base px-6">infrastructure</p>
                             <div class="border-l-2 border-b-2 border-dashed border-black px-6 py-6 space-y-7">
-                                <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential, 
+                                <p class="max-w-xs text-sm">We identify and invest in prime real estate assets with strong growth potential, including residential,
                                     commercial, and mixed-use properties.</p>
                                     <button type="button" class="rounded-full px-10 py-2.5 text-sm font-semibold uppercase   border-black border   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200">
                                         learn more
@@ -137,7 +138,7 @@
                         </p>
                         <p class="text-sm leading-6">
                             Infrastructure is the backbone of any thriving economy. We offer comprehensive
-                            financing options for infrastructure projects, including 
+                            financing options for infrastructure projects, including
                             transportation, energy, water, and public facilities. Our focus is on supporting developments that enhance connectivity, improve quality of life, and promote sustainable growth.
                         </p>
                     </div>
@@ -146,8 +147,8 @@
                             Equity Investment:
                         </p>
                         <p class="text-sm leading-6">
-                            At Next Level Capital, we believe in the power of partnerships. Our equity investment solutions bring 
-                            together investors and developers to share in the success of 
+                            At Next Level Capital, we believe in the power of partnerships. Our equity investment solutions bring
+                            together investors and developers to share in the success of
                             high-impact projects. We work closely with our partners to align
                             interests and ensure that each project achieves its full potential.
                         </p>
@@ -157,9 +158,9 @@
                             Public-Private Partnerships (PPP):
                         </p>
                         <p class="text-sm leading-6">
-                        We specialize in facilitating public-private 
+                        We specialize in facilitating public-private
                         partnerships that leverage the strengths of both
-                         sectors to deliver large-scale infrastructure and 
+                         sectors to deliver large-scale infrastructure and
                          community development projects. Our expertise in structuring PPPs ensures that all stakeholders benefit from the collaboration.
                         </p>
                     </div>

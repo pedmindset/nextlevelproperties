@@ -1,3 +1,3 @@
-<div {{$attributes ->merge(['class'=>'relative overflow-hidden'])}}>
-        {{$slot}}
+<div {{ $attributes->merge(['class' => 'relative overflow-hidden h-screen']) }}>
+    {{ $slot }}
 </div>
