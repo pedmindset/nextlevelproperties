@@ -1,5 +1,5 @@
 <x-layout>
-    <x-header style="background-image: url('{{ asset('Nxtlevel/curve_copy.jpg') }}')" class="bg-cover md:bg-contain bg-no-repeat bg-right-top h-full md:h-[80vh] py-16">
+    <x-header style="background-image: url('{{ asset('Nxtlevel/curve_copy.jpg') }}')" class="bg-cover md:bg-contain bg-no-repeat bg-right-top h-full md:h-[80vh]">
         <x-nav>
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
                 <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
@@ -39,7 +39,7 @@
                     <img class="h-auto w-full lg:w-[780px] object-cover"
                         src="{{ asset('images/team-in-portrait-diversity-and-business-people-in-2023-11-27-05-35-15-utc 1.png') }}"
                         alt="">
-                    <div class="lg:-ml-8 space-y-5 w-full lg:max-w-sm bg-teal-400 px-7 py-8 lg:py-4">
+                    <div class="lg:-ml-8 space-y-5 w-full lg:max-w-sm bg-teal-400  p-10">
                         <p class="text-3xl font-light text-gray-700">
                             Empowering growth through strategic capital solutions
                         </p>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="mt-12 space-y-4">
+                <div class="mt-12 space-y-4 px-8 lg:px-2">
                     <p class="text-2xl font-bold">Who We Are</p>
                     <div class="space-y-4 text-lg font-normal">
                         <p>Next Level Capital is a leading financial firm specializing in the development of real estate
