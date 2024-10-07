@@ -90,14 +90,14 @@
                 src="{{ asset('Nxtlevel/diverse-team-of-architects-working-with-smartphone-2023-11-27-05-13-45-utc.JPG') }}"
                 alt="picture">
         </section>
-        <section class="mx-auto max-w-6xl px-8 py-32">
+        <section class="mx-auto max-w-7xl px-8 py-32">
             <div class="flex justify-between gap-x-4 gap-y-10 flex-wrap md:flex-nowrap">
                 <div class="space-y-4">
-                    <p class="text-xl font-bold tracking-wide">Why Choose Next-<br>Level Capital</p>
+                    <p class="text-2xl font-bold tracking-wide">Why Choose Next-<br>Level Capital</p>
                     <div class="border-b-2 border-black"></div>
                 </div>
                 <div class="flex flex-col space-y-10">
-                    <div class="flex space-x-10 text-sm">
+                    <div class="flex space-x-10 text-lg">
                         <div>
                             <p><span class="font-bold">Proven Track Record:</span> Our history of<br> successful
                                 investments speaks <br>for itself.</p>
@@ -107,7 +107,7 @@
                                 leaders to deliver <br>exceptional results</p>
                         </div>
                     </div>
-                    <div class="flex space-x-10 text-sm">
+                    <div class="flex space-x-10 text-lg">
                         <div>
                             <p><span class="font-bold">Proven Track Record:</span> Our history of<br> successful
                                 investments speaks <br>for itself.</p>
@@ -117,7 +117,7 @@
                                 leaders to deliver <br>exceptional results</p>
                         </div>
                     </div>
-                    <p class="max-w-lg text-sm">
+                    <p class="max-w-lg text-lg">
                         By leveraging our expertise and strategic approach, we deliver superior returns while creating
                         sustainable value for our investors and the communities we serve.
                     </p>
@@ -137,7 +137,7 @@
                         <p class="text-xl font-bold">
                             Real Estate Financing:
                         </p>
-                        <p class="text-sm leading-6">
+                        <p class="text-base leading-6">
                             We provide tailored financing solutions for
                             a wide range of real estate projects, including
                             residential, commercial, and mixed-use
@@ -151,7 +151,7 @@
                         <p class="text-xl font-bold">
                             Infrastructure Financing:
                         </p>
-                        <p class="text-sm leading-6">
+                        <p class="text-base leading-6">
                             Infrastructure is the backbone of any thriving economy. We offer comprehensive
                             financing options for infrastructure projects, including
                             transportation, energy, water, and public facilities. Our focus is on supporting
@@ -163,7 +163,7 @@
                         <p class="text-xl font-bold">
                             Equity Investment:
                         </p>
-                        <p class="text-sm leading-6">
+                        <p class="text-base leading-6">
                             At Next Level Capital, we believe in the power of partnerships. Our equity investment
                             solutions bring
                             together investors and developers to share in the success of
@@ -175,7 +175,7 @@
                         <p class="text-xl font-bold">
                             Public-Private Partnerships (PPP):
                         </p>
-                        <p class="text-sm leading-6">
+                        <p class="text-base leading-6">
                             We specialize in facilitating public-private
                             partnerships that leverage the strengths of both
                             sectors to deliver large-scale infrastructure and
@@ -187,7 +187,7 @@
                         <p class="text-xl font-bold">
                             Sustainable Financing:
                         </p>
-                        <p class="text-sm leading-6">
+                        <p class="text-base leading-6">
                             Sustainability is at the core of our approach. We prioritize financing for projects that
                             incorporate sustainable practices, from
                             green building techniques to renewable energy solutions. By supporting sustainable
