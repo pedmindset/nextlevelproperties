@@ -10,7 +10,7 @@
             <img class="object-cover" src="" alt="">
         </div> --}}
         <div class="max-w-7xl mx-auto">
-            <div class="flex max-w-4xl py-32 mt-12">
+            <div class="flex max-w-4xl py-32 px-8 mt-12">
               <div class="space-y-24">
                <p class="text-white text-2xl font-bold">We are here to help you take your projects to the next level. Whether you're interested in our real estate financing, infrastructure investment, or want to explore partnership opportunities, our team is ready to assist you.</p>
                 <x-button1 class="border-white text-white">

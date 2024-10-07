@@ -1,5 +1,5 @@
 <x-layout>
-    <x-header class="h-screen">
+    <x-header class="h-screen pb-24">
         <x-nav>
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
                 <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
@@ -13,7 +13,7 @@
         <div class="mx-auto max-w-7xl">
             <div class="mx-auto mt-12 flex max-w-7xl justify-between flex-wrap md:flex-nowrap px-10 py-14 md:px-10 lg:px-6">
                 <div
-                    class="w-full p-1 md:max-w-3xl text-4xl md:text-6xl lg:text-7xl font-light md:font-extralight uppercase leading-normal md:leading-tight lg:leading-tight tracking-wide text-blue1 ">
+                    class="w-full p-1 md:max-w-3xl text-5xl md:text-6xl lg:text-7xl font-light md:font-extralight uppercase leading-normal md:leading-tight lg:leading-tight tracking-wide text-blue1 ">
                     Unlocking Value Through Strategic Investments
                 </div>
                 <div class="flex justify-center mt-5 md:mt-0">
@@ -30,7 +30,7 @@
     </x-header>
     <main class="w-full">
         <div class="bg-blue2">
-            <section class="mx-auto flex flex-col md:flex-row justify-center max-w-7xl gap-14 md:gap-36 px-8 py-32 pb-36">
+            <section class="mx-auto flex flex-col md:flex-row justify-center max-w-7xl gap-14 md:gap-36 px-8 pt-40 pb-44">
                 <div class="flex-shrink-0">
                     <img class="h-[218px] w-[183px]" src="{{ asset('images/nxtlevel_logo_white.png') }}" alt="">
                 </div>
@@ -38,7 +38,7 @@
                     <div class="text-2xl font-bold">
                         <p>WHO WE ARE</p>
                     </div>
-                    <div class="max-w-2xl text-sm font-normal leading-6 tracking-wide">
+                    <div class="max-w-2xl text-lg font-normal leading-6 tracking-wide">
                         <p>Next-Level Capital is a leading investment firm specializing in high-return opportunities
                             within the real estate and infrastructure sectors. Our deep market expertise, coupled with a
                             proven track record, makes us the ideal partner for investors seeking to maximize
@@ -50,7 +50,7 @@
                 </div>
             </section>
         </div>
-        <section class="mx-auto max-w-6xl px-8 flex flex-col justify-center py-48 pb-52">
+        <section class="mx-auto max-w-6xl px-8 flex flex-col justify-center pt-44 pb-52">
             <div>
                 <p class="text-6xl font-thin tracking-widest uppercase md:pl-5">Our Focus</p>
                 <div>
@@ -86,7 +86,7 @@
             </div>
         </section>
         <section class="w-full">
-            <img class="h-[610px] w-full object-cover object-center"
+            <img class="h-[80vh] w-full object-cover object-right"
                 src="{{ asset('Nxtlevel/diverse-team-of-architects-working-with-smartphone-2023-11-27-05-13-45-utc.JPG') }}"
                 alt="picture">
         </section>
