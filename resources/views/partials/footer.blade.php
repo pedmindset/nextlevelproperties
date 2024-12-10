@@ -16,7 +16,7 @@
         </div>
         <div class="text-white font-thin  mt-14">
             <div class="py-6 flex justify-between items-center">
-                <img src="{{asset('images/nxtlevel_logo_white.png')}}" alt="company logo" class="w-14 h-14">
+                <img src="{{asset('images/nextLevel_logo.png')}}" alt="company logo" class="w-14 h-14">
                 <div>
                     <p>Book a Meeting</p>
                     <p>Send us an email</p>

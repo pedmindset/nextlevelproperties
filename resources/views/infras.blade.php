@@ -2,7 +2,7 @@
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
-                <img src="{{ asset('images/nxtlevel_logo_white.png') }}" alt="companylogo">
+                <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>

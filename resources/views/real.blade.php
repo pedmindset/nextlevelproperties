@@ -2,7 +2,7 @@
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
-                <img src="{{ asset('images/nxtlevel_logo_white.png') }}" alt="companylogo">
+                <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>
@@ -18,7 +18,8 @@
         <div class="mx-auto max-w-7xl px-8">
             <div class="mt-12 flex max-w-4xl py-32">
                 <div class="space-y-24">
-                    <p class="text-2xl md:text-3xl font-bold text-white">We are dedicated to fueling growth and development
+                    <p class="text-2xl font-bold text-white md:text-3xl">We are dedicated to fueling growth and
+                        development
                         through strategic real estate investments and financing solutions.</p>
                     <x-button1 class="border-white text-white">
                         Work with us
@@ -92,11 +93,13 @@
                             defined by our commitment to excellence, innovation, and partnership.</p>
                     </div>
                     <div>
-                        <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-between gap-y-28 gap-x-20 md:gap-x-4 lg:gap-x-32">
+                        <div
+                            class="grid grid-cols-1 items-center justify-between gap-x-20 gap-y-28 md:grid-cols-2 md:gap-x-4 lg:gap-x-32">
                             <div class="space-y-5">
                                 <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Tailored Financial
                                     Solutions</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-GRAY-300 pl-10 mr-10 pb-10">
+                                <div
+                                    class="border-GRAY-300 mr-10 space-y-7 border-b-4 border-l-4 border-dashed pb-10 pl-10">
                                     <p class="max-w-md text-base">We understand that every project is unique. </p>
                                     <p class="max-w-md text-base">Our team works closely with you to understand your
                                         specific needs and develop customized financing strategies that align with your
@@ -105,7 +108,8 @@
                             </div>
                             <div class="space-y-5">
                                 <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Deep Market Expertise</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-GRAY-300 pl-10 mr-10 pb-10">
+                                <div
+                                    class="border-GRAY-300 mr-10 space-y-7 border-b-4 border-l-4 border-dashed pb-10 pl-10">
                                     <p class="max-w-md text-base">With extensive experience in the USA and African real
                                         estate markets, we offer valuable insights and analysis that inform smart
                                         investment decisions. </p>
@@ -114,10 +118,11 @@
 
                                 </div>
                             </div>
-                              <div class="space-y-5">
+                            <div class="space-y-5">
                                 <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Comprehensive Due
                                     Diligence</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-GRAY-300 pl-10 mr-10 pb-10">
+                                <div
+                                    class="border-GRAY-300 mr-10 space-y-7 border-b-4 border-l-4 border-dashed pb-10 pl-10">
                                     <p class="max-w-md text-lg"> We conduct thorough due diligence to assess project
                                         viability, risks, and potential returns. </p>
                                     <p class="max-w-md text-lg">Our meticulous evaluation process ensures that all
@@ -128,7 +133,8 @@
                             <div class="space-y-3">
                                 <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Collaborative
                                     Partnerships</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-GRAY-300 pl-10 mr-10 pb-10">
+                                <div
+                                    class="border-GRAY-300 mr-10 space-y-7 border-b-4 border-l-4 border-dashed pb-10 pl-10">
                                     <p class="max-w-md text-lg">We value strong, collaborative relationships with our
                                         partners. </p>
                                     <p class="max-w-md text-lg">By fostering open communication and aligning our goals,
@@ -146,30 +152,31 @@
         <section>
             <div class="mx-auto max-w-7xl space-y-14 py-10 pb-36">
                 <div class="space-y-3 px-8 md:px-0">
-                    <p class="text-end text-xl md:text-3xl font-extrabold italic">Let's build together</p>
+                    <p class="text-end text-xl font-extrabold italic md:text-3xl">Let's build together</p>
                     <img class="h-auto w-full object-cover"
                         src="{{ asset('Nxtlevel/bird-s-eye-view-of-tall-buildings-under-constructi-2023-11-27-05-00-24-utc.jpg') }}"
                         alt="">
                 </div>
-                <div class="border-b border-gray-700 mx-8"></div>
-                <div class="max-w-5xl space-y-6 text-lg px-8">
-                    <p class="text-2xl font-bold">
+                <div class="mx-1 border-b border-gray-700"></div>
+                <ul class="list-outside list-disc space-y-6 px-8 prose-base max-w-5xl md:px-0">
+                    <h2 class="text-2xl font-bold">
                         Why Choose Next Level Capital?
-                    </p>
-                    <p>Choosing Next Level Capital as your financing partner means choosing a team dedicated to your
-                        project's success.</p>
-                    <p>Proven Track Record: We have a history of successfully financing and supporting diverse real
-                        estate projects that deliver strong returns and positive community impact.</p>
-                    <p>Flexible Financing Options: Our wide range of financing products allows us to structure deals
-                        that best fit your project's needs and financial goals.</p>
-                    <p>Expert Team: Our professionals bring extensive experience and expertise across finance, real
-                        estate, and development sectors, providing you with comprehensive support and guidance.</p>
-                    <p>Global Perspective: With operations spanning the USA and Africa, we bring a global perspective
-                        and network that unlocks opportunities and resources for your project.</p>
-                    <p>Responsive and Reliable: We are committed to providing timely, transparent, and reliable service,
-                        ensuring that your financing process is smooth and efficient.</p>
-                </div>
-                <x-button1 class="border-black mx-8">
+                    </h2>
+                    <li>Choosing Next Level Capital as your financing partner means choosing a team dedicated to your
+                        project's success.</li>
+                    <li>Proven Track Record: We have a history of successfully financing and supporting diverse real
+                        estate projects that deliver strong returns and positive community impact.</li>
+                    <li>Flexible Financing Options: Our wide range of financing products allows us to structure deals
+                        that best fit your project's needs and financial goals.</li>
+                    <li>Expert Team: Our professionals bring extensive experience and expertise across finance, real
+                        estate, and development sectors, providing you with comprehensive support and guidance.</li>
+                    <li>Global Perspective: With operations spanning the USA and Africa, we bring a global perspective
+                        and network that unlocks opportunities and resources for your project.</li>
+                    <li>Responsive and Reliable: We are committed to providing timely, transparent, and reliable
+                        service,
+                        ensuring that your financing process is smooth and efficient.</li>
+                </ul>
+                <x-button1 class="mx-8 border-black">
                     Book a meeting
                 </x-button1>
             </div>

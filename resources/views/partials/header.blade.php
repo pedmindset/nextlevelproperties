@@ -1,9 +1,9 @@
 <div class="relative overflow-hidden">
-        
+
         <nav class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
             <div class="flex items-center space-x-36">
                 <div class ="w-14 h-14">
-                    <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
+                    <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
                 </div>
                 <ul class="uppercase flex space-x-6 text-sm font-semibold text-gray1">
                     <li>

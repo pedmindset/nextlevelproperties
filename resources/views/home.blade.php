@@ -2,7 +2,7 @@
     <x-header class="h-screen pb-24">
         <x-nav>
             <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
-                <img src="{{ asset('images/nxtlevel_logo.jpeg') }}" alt="companylogo">
+                <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>
@@ -32,7 +32,7 @@
         <div class="bg-blue2">
             <section class="mx-auto flex flex-col md:flex-row justify-center max-w-7xl gap-14 md:gap-36 px-8 pt-40 pb-44">
                 <div class="flex-shrink-0">
-                    <img class="h-[218px] w-[183px]" src="{{ asset('images/nxtlevel_logo_white.png') }}" alt="">
+                    <img class="h-[218px] w-[183px]" src="{{ asset('images/nextLevel_logo.png') }}" alt="">
                 </div>
                 <div class="space-y-10 text-white px-2">
                     <div class="text-2xl font-bold">
