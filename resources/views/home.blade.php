@@ -13,7 +13,7 @@
         <div class="mx-auto max-w-7xl">
             <div class="mx-auto mt-12 flex max-w-7xl justify-between flex-wrap md:flex-nowrap px-10 py-14 md:px-10 lg:px-6">
                 <div
-                    class="w-full p-1 md:max-w-3xl text-5xl md:text-6xl lg:text-7xl font-light md:font-extralight uppercase leading-normal md:leading-tight lg:leading-tight tracking-wide text-blue1 ">
+                    class="w-full p-1 md:max-w-3xl text-4xl md:text-6xl lg:text-7xl font-light md:font-extralight uppercase leading-normal md:leading-tight lg:leading-tight tracking-wide text-blue1 ">
                     Unlocking Value Through Strategic Investments
                 </div>
                 <div class="flex justify-center mt-5 md:mt-0">

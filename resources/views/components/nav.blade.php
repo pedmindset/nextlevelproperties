@@ -32,7 +32,7 @@
         <div class="mx-auto h-screen max-w-7xl px-2">
             <div class="flex h-24 w-full flex-nowrap justify-between px-5 py-5">
                 <img class="w-[5.3rem] object-contain hover:rotate-2 hover:scale-125 motion-safe:transition-transform md:-m-2"
-                    src="{{ asset('images/nextLevel_logo.png') }}" alt="NextLevel Logo" />
+                    src="{{ asset('images/nxtlevel_logo.png') }}" alt="NextLevel Logo" />
 
                 {{-- <svg color="black" class="size-6 z-20 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                     strokeWidth="1.5" stroke="currentColor" @click="open = !open">
@@ -49,7 +49,7 @@
                 <div class="col-span-1">
                     <nav class="py-4" aria-label="Mobile navigation">
                         <ul class="flex flex-col gap-y-4 md:gap-y-6">
-                            <li class="py-1 text-6xl sm:text-4xl xl:text-5xl">
+                            <li class="py-1 text-5xl sm:text-4xl xl:text-5xl">
                                 <a class="hover:text-primary ring-primary @if (request()->is('/')) 'text-primary'
                                         @else
                                              'text-gray-700' @endif -m-1 cursor-pointer p-1 font-light tracking-wide transition hover:scale-x-105 focus:outline-none focus-visible:ring-2"
@@ -57,35 +57,35 @@
                                     Home
                                 </a>
                             </li>
-                            <li class="py-1 text-6xl sm:text-4xl xl:text-5xl">
-                                <a class="hover:text-primary ring-primary @if (request()->is('/')) 'text-primary'
+                            <li class="py-1 text-5xl sm:text-4xl xl:text-5xl">
+                                <a class="hover:text-primary ring-primary @if (request()->is('about')) 'text-primary'
                                         @else
                                              'text-gray-700' @endif -m-1 cursor-pointer p-1 font-light tracking-wide transition hover:scale-x-105 focus:outline-none focus-visible:ring-2"
-                                    href="{{ url('/') }}">
+                                    href="{{ url('/about') }}">
                                     About
                                 </a>
                             </li>
-                            <li class="py-1 text-6xl sm:text-4xl xl:text-5xl">
-                                <a class="hover:text-primary ring-primary @if (request()->is('/')) 'text-primary'
+                            <li class="py-1 text-5xl sm:text-4xl xl:text-5xl">
+                                <a class="hover:text-primary ring-primary @if (request()->is('real-estate')) 'text-primary'
                                         @else
                                              'text-gray-700' @endif -m-1 cursor-pointer p-1 font-light tracking-wide transition hover:scale-x-105 focus:outline-none focus-visible:ring-2"
-                                    href="{{ url('/') }}">
+                                    href="{{ url('/real-estate') }}">
                                     Real Estate
                                 </a>
                             </li>
-                            <li class="py-1 text-6xl sm:text-4xl xl:text-5xl">
-                                <a class="hover:text-primary ring-primary @if (request()->is('/')) 'text-primary'
+                            <li class="py-1 text-5xl sm:text-4xl xl:text-5xl">
+                                <a class="hover:text-primary ring-primary @if (request()->is('Infrastructure')) 'text-primary'
                                         @else
                                              'text-gray-700' @endif -m-1 cursor-pointer p-1 font-light tracking-wide transition hover:scale-x-105 focus:outline-none focus-visible:ring-2"
-                                    href="{{ url('/') }}">
+                                    href="{{ url('/Infrastructure') }}">
                                     Infrastructure
                                 </a>
                             </li>
-                            <li class="py-1 text-6xl sm:text-4xl xl:text-5xl">
-                                <a class="hover:text-primary ring-primary @if (request()->is('/')) 'text-primary'
+                            <li class="py-1 text-5xl sm:text-4xl xl:text-5xl">
+                                <a class="hover:text-primary ring-primary @if (request()->is('contact')) 'text-primary'
                                         @else
                                              'text-gray-700' @endif -m-1 cursor-pointer p-1 font-light tracking-wide transition hover:scale-x-105 focus:outline-none focus-visible:ring-2"
-                                    href="{{ url('/') }}">
+                                    href="{{ url('/contact') }}">
                                     Contact us
                                 </a>
                             </li>
