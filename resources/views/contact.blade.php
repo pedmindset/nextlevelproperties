@@ -29,14 +29,14 @@
                         <div class="bg-gray-50 py-4 px-9 rounded-lg text-gray-400 w-full">
                             <div class="space-y-5 text-xs font-light">
                                 <p class="text-sm font-bold">General Enquiries</p>
-                                <p>info@nextlevelpropterties.com</p>
+                                <p>info@nxtlvlcapital.com</p>
                                 <p>+1 (283)-234-5356</p>
                             </div>
                         </div>
                         <div class="bg-gray-50 py-4 px-9 rounded-lg text-gray-400 w-full">
                             <div class="space-y-5 text-xs font-light ">
                                 <p class="text-sm font-bold">Business</p>
-                                <p>business@nextlevelpropterties.com</p>
+                                <p>business@nxtlvlcapital.com</p>
                                 <p>+1 (283)-234-5356</p>
                             </div>
                         </div>
