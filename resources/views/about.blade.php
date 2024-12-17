@@ -2,7 +2,7 @@
     <x-header class="h-full bg-cover bg-right-top bg-no-repeat md:h-[80vh] md:bg-contain"
         style="background-image: url('{{ asset('Nxtlevel/curve_copy.jpg') }}')">
         <x-nav>
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
+            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
@@ -26,7 +26,7 @@
                         </p>
                         <x-dash />
                     </div>
-                    <x-button1 class="border-black">
+                    <x-button1 class="border-black" href="{{ route('contact') }}">
                         Work with us
                     </x-button1>
                 </div>
@@ -46,7 +46,7 @@
                         </p>
                         <div class="w-20 border-b border-black"></div>
                         <div class="pt-3">
-                            <x-button1 class="border-black text-sm font-bold text-gray-700">
+                            <x-button1 class="border-black text-sm font-bold text-gray-700" href="{{ route('contact') }}">
                                 PARTNER WITH US
                             </x-button1>
                         </div>
@@ -246,7 +246,7 @@
 
         <x-section class="bg-gray-50">
             <p>Let’s Build the <br>Future Together</p>
-            <x-button2>
+            <x-button2 href="{{ route('contact') }}">
                 <div class="">
                     <p>partner</p>
                     <p>with us</p>

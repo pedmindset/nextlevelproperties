@@ -1,7 +1,7 @@
 <x-layout>
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
+            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
@@ -21,7 +21,7 @@
                     <p class="text-xl font-bold text-white md:text-2xl">We understand that robust infrastructure is the
                         backbone of thriving economies. With our deep expertise in financing, we provide the capital and
                         support necessary to bring essential infrastructure developments to life.</p>
-                    <x-button1 class="border-white text-white">
+                    <x-button1 class="border-white text-white" href="{{ route('contact') }}">
                         Work with us
                     </x-button1>
                 </div>
@@ -44,7 +44,7 @@
                             life, and promote long-term economic growth.</p>
                     </div>
                     <x-dash />
-                    <x-button1 class="border-black">
+                    <x-button1 class="border-black" href="{{ route('contact') }}">
                         WORK WITH US
                     </x-button1>
                 </div>
@@ -108,7 +108,7 @@
                                 financiers; we are partners committed to building a better future through strategic and
                                 impactful infrastructure investments.
                                 Let's build a resilient, sustainable future together.</p>
-                            <x-button1 class="border-black">
+                            <x-button1 class="border-black" href="{{ route('contact') }}">
                                 PARTNER WITH US
                             </x-button1>
                         </div>
@@ -199,14 +199,14 @@
                     <p>Comprehensive Support: From initial planning to project execution and beyond, we provide
                         comprehensive support to ensure the success of every infrastructure investment.</p>
                 </div>
-                <x-button1 class="border-black">
+                <x-button1 class="border-black" href="{{ route('contact') }}">
                     Book a meeting
                 </x-button1>
             </div>
         </section>
         <x-section class="bg-teal-300">
             <p class="text-white">Are you ready to <br> invest in the future <br> of infrastructure?</p>
-            <x-button2 class="border-white">
+            <x-button2 class="border-white" href="{{ route('contact') }}">
                 <div class="text-white">
                     <p>partner</p>
                     <p>with us</p>

@@ -1,7 +1,7 @@
 <x-layout>
     <x-header class="h-screen pb-24">
         <x-nav>
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
+            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
@@ -18,6 +18,7 @@
                 </div>
                 <div class="flex justify-center mt-5 md:mt-0">
                     <button
+                        onclick="window.location.href='{{ route('contact') }}'"
                         class="flex items-center mt-3 py-3 max-h-24 px-8 md:px-10 rounded-full border-2 border-dashed border-black">
                         <div>
                             <p class="text-sm font-bold uppercase text-black md:text-base">partner<br/>
@@ -44,7 +45,7 @@
                             proven track record, makes us the ideal partner for investors seeking to maximize
                             returns while contributing to the growth of thriving communities.</p>
                     </div>
-                    <x-button1 class="border-white">
+                    <x-button1 class="border-white" href="{{ route('contact') }}">
                         Work with us
                     </x-button1>
                 </div>
@@ -62,6 +63,7 @@
                                     strong growth potential, including residential,
                                     commercial, and mixed-use properties.</p>
                                 <button
+                                    onclick="window.location.href='{{ route('real-estate') }}'"
                                     class="rounded-full border border-black px-10 py-2.5 text-sm font-semibold uppercase focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200"
                                     type="button">
                                     learn more
@@ -75,6 +77,7 @@
                                     strong growth potential, including residential,
                                     commercial, and mixed-use properties.</p>
                                 <button
+                                    onclick="window.location.href='{{ route('infrastructure') }}'"
                                     class="rounded-full border border-black px-10 py-2.5 text-sm font-semibold uppercase focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200"
                                     type="button">
                                     learn more
@@ -122,6 +125,7 @@
                         sustainable value for our investors and the communities we serve.
                     </p>
                     <button
+                        onclick="window.location.href='{{ route('about') }}'"
                         class="w-52 rounded-full border border-black px-10 py-2.5 text-sm font-semibold uppercase focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-200"
                         type="button">
                         learn more

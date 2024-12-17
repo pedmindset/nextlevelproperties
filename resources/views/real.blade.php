@@ -1,7 +1,7 @@
 <x-layout>
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="/">
+            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
@@ -21,7 +21,7 @@
                     <p class="text-2xl font-bold text-white md:text-3xl">We are dedicated to fueling growth and
                         development
                         through strategic real estate investments and financing solutions.</p>
-                    <x-button1 class="border-white text-white">
+                    <x-button1 class="border-white text-white" href="{{ route('contact') }}">
                         Work with us
                     </x-button1>
                 </div>
@@ -42,7 +42,7 @@
                             ensuring successful outcomes and lasting impact.</p>
                     </div>
                     <x-dash />
-                    <x-button1 class="my-5 border-black">
+                    <x-button1 class="my-5 border-black" href="{{ route('contact') }}">
                         WORK WITH US
                     </x-button1>
                 </div>
@@ -76,7 +76,7 @@
                                 estate markets, we offer valuable insights and analysis that inform smart investment
                                 decisions. Our knowledge of local regulations, market trends, and economic factors
                                 ensures that your project is well-positioned for success.</p>
-                            <x-button1 class="border-black">
+                            <x-button1 class="border-black" href="{{ route('contact') }}">
                                 PARTNER WITH US
                             </x-button1>
                         </div>
@@ -176,14 +176,14 @@
                         service,
                         ensuring that your financing process is smooth and efficient.</li>
                 </ul>
-                <x-button1 class="mx-8 border-black">
+                <x-button1 class="border-black" href="{{ route('contact') }}">
                     Book a meeting
                 </x-button1>
             </div>
         </section>
         <x-section class="bg-teal-300">
             <p class="text-white">Fueling growth <br>and development</p>
-            <x-button2 class="border-white">
+            <x-button2 class="border-white" href="{{ route('contact') }}">
                 <div class="text-white">
                     <p>partner</p>
                     <p>with us</p>
