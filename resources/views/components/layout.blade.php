@@ -8,7 +8,7 @@
     <title>Nextlevel</title>
     <link rel="icon" href="{{ asset('images/nextLevel_logo.png') }}" type="image/x-icon">
 </head>
-<body class="font-montserrat">
+<body>
 
     {{$slot}}
     @include('partials.footer')

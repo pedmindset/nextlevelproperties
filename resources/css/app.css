@@ -9,7 +9,9 @@
 
 /* Your other styles can follow */
 @layer base {
-    /* Base styles go here */
+    body {
+        @apply font-sans;
+    }
 }
 
 @layer components {

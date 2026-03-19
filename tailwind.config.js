@@ -1,3 +1,5 @@
+import defaultTheme from "tailwindcss/defaultTheme";
+
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
@@ -13,6 +15,7 @@ export default {
                 blue2: "#081B4B",
             },
             fontFamily: {
+                sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
                 montserrat: ["Montserrat", "sans-serif"],
                 mulish: ["Mulish", "sans-serif"],
             },

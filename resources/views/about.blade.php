@@ -1,36 +1,61 @@
 <x-layout>
-    <x-header class="h-full bg-cover bg-right-top bg-no-repeat md:h-[80vh] md:bg-contain"
-        style="background-image: url('{{ asset('Nxtlevel/curve_copy.jpg') }}')">
+    <x-header class="relative h-screen overflow-hidden">
         <x-nav>
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
+            <a class="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
-            {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>
-        {{-- <div  class="absolute inset-0 -z-10 w-full h-full object-cover">
-            <img class="object-cover" src="" alt="">
-        </div> --}}
-        <div class="mx-auto max-w-7xl">
-            <div class="mx-auto mt-12 flex max-w-7xl px-8 py-12">
-                <div class="space-y-7">
-                    <p class="text-4xl font-light md:text-5xl">NEXT LEVEL CAPITAL</p>
-                    <div class="max-w-3xl space-y-8 text-lg text-gray-900">
-                        <p>Trusted partner in financing the future of real estate and infrastructure. With a deep
-                            commitment to fostering growth and development, we provide innovative financial solutions
-                            that
-                            empower projects across the USA and Africa.
+        
+        <!-- Background with gradient overlay -->
+        <div class="absolute inset-0 -z-10">
+            <img class="h-full w-full object-contain object-right-top"
+                src="{{ asset('Nxtlevel/curve_copy.jpg') }}" alt="">
+            <div class="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/40"></div>
+            <!-- Decorative elements -->
+            {{-- <div class="absolute -bottom-20 -left-20 h-[500px] w-[500px] rounded-full bg-teal-400/20 blur-3xl"></div>
+            <div class="absolute top-1/4 right-1/4 h-80 w-80 rounded-full bg-blue1/5 blur-3xl"></div> --}}
+        </div>
+        
+        <div class="relative mx-auto max-w-7xl px-8">
+            <div class="flex min-h-[70vh] flex-col justify-center py-20">
+                <div class="max-w-3xl">
+                    <span class="mb-6 inline-block text-sm font-semibold uppercase tracking-[0.3em] text-teal-600">About Us</span>
+                    <h1 class="mb-6 text-5xl font-extralight uppercase leading-tight tracking-wide text-blue1 md:text-6xl lg:text-7xl">
+                        Next Level
+                        <span class="block font-medium">Capital</span>
+                    </h1>
+                    <div class="mb-10 h-1 w-32 bg-gradient-to-r from-teal-400 to-teal-400/30"></div>
+                    <div class="max-w-2xl space-y-6">
+                        <p class="text-xl font-light leading-relaxed text-gray-700 md:text-2xl">
+                            Trusted partner in financing the future of real estate and infrastructure.
                         </p>
-                        <p>Our mission is to fuel progress by bridging the gap between vision and reality, delivering
-                            the
-                            capital that drives impactful and sustainable development.
+                        <p class="text-lg font-light leading-relaxed text-gray-600">
+                            With a deep commitment to fostering growth and development, we provide innovative financial solutions
+                            that empower projects across the USA and Africa. Our mission is to fuel progress by bridging the gap 
+                            between vision and reality.
                         </p>
-                        <x-dash />
                     </div>
-                    <x-button1 class="border-black" href="{{ route('contact') }}">
-                        Work with us
-                    </x-button1>
+                    <div class="mt-12 flex items-center gap-6">
+                        <x-button1 class="border-blue1 bg-blue1 text-white transition-all duration-300 hover:bg-transparent hover:text-blue1" href="{{ route('contact') }}">
+                            Partner with us
+                        </x-button1>
+                        <a href="#who-we-are" class="group flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-gray-600 transition-colors hover:text-blue1">
+                            Learn more
+                            <svg class="h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-10 left-1/2 flex -translate-x-1/2 flex-col items-center animate-bounce">
+            <span class="mb-2 text-xs uppercase tracking-widest text-gray-400">Scroll</span>
+            <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
         </div>
     </x-header>
     <main class="w-full">
@@ -46,7 +71,8 @@
                         </p>
                         <div class="w-20 border-b border-black"></div>
                         <div class="pt-3">
-                            <x-button1 class="border-black text-sm font-bold text-gray-700" href="{{ route('contact') }}">
+                            <x-button1 class="border-black text-sm font-bold text-gray-700"
+                                href="{{ route('contact') }}">
                                 PARTNER WITH US
                             </x-button1>
                         </div>
@@ -149,8 +175,7 @@
                     role="list">
                     <li>
                         <img class="aspect-[3/3] w-full rounded-2xl object-cover object-top"
-                            src="{{ asset('images/musah_lotallah.jpeg') }}"
-                            alt="Musah Lotallah">
+                            src="{{ asset('images/musah_lotallah.jpeg') }}" alt="Musah Lotallah">
                         <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Musah Lotallah
 
                         </h3>
@@ -178,10 +203,9 @@
                         </ul>
                     </li>
 
-                     <li>
+                    <li>
                         <img class="aspect-[3/3] w-full rounded-2xl object-cover object-top"
-                            src="{{ asset('images/iffath_lotallah.jpeg') }}"
-                            alt="Musah Lotallah">
+                            src="{{ asset('images/iffath_lotallah.jpeg') }}" alt="Musah Lotallah">
                         <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Iffath Lotallah
 
                         </h3>
@@ -209,10 +233,9 @@
                         </ul>
                     </li>
 
-                      <li>
+                    <li>
                         <img class="aspect-[3/3] w-full rounded-2xl object-cover object-top"
-                            src="{{ asset('images/elijah_mukkarum.jpeg') }}"
-                            alt="Musah Lotallah">
+                            src="{{ asset('images/elijah_mukkarum.jpeg') }}" alt="Musah Lotallah">
                         <h3 class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Elijah Mukkarum
 
                         </h3>

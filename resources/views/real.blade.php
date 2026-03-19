@@ -1,18 +1,17 @@
 <x-layout>
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
+            <a class="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>
-        {{-- <div  class="absolute inset-0 -z-10 w-full h-full object-cover">
+        {{-- <div class="absolute inset-0 -z-10 w-full h-full object-cover">
             <img class="object-cover" src="" alt="">
         </div> --}}
         <div class="absolute inset-0 -z-10 h-screen w-full object-cover">
             <img class="h-full w-full object-cover"
-                src="{{ asset('Nxtlevel/aerial-view-of-a-construction-site-2023-11-27-05-35-42-utc.jpg') }}"
-                alt="">
+                src="{{ asset('Nxtlevel/aerial-view-of-a-construction-site-2023-11-27-05-35-42-utc.jpg') }}" alt="">
             <div class="opacity-45 absolute inset-0 bg-black mix-blend-multiply"></div>
         </div>
         <div class="mx-auto max-w-7xl px-8">

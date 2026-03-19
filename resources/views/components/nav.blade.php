@@ -1,4 +1,4 @@
-<section class="relative" x-data="{ open: false }">
+<section class="relative z-20" x-data="{ open: false }">
     <nav {{ $attributes->merge(['class' => 'max-w-7xl mx-auto px-6 py-0 flex justify-between']) }}>
         <div class="flex items-center space-x-10 text-gray-700">
             {{ $slot }}

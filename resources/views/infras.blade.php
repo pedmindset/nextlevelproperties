@@ -1,12 +1,12 @@
 <x-layout>
     <x-header class="h-[80vh]">
         <x-nav class="text-white">
-            <a class ="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
+            <a class="flex h-full w-28 items-center border-r-2 border-gray-300 pr-10" href="{{ route('home') }}">
                 <img src="{{ asset('images/nextLevel_logo.png') }}" alt="Next Level Capital">
             </a>
             {{-- <div class="border-r-2 border-r-gray1 h-20 absolute top-0 left-44"></div> --}}
         </x-nav>
-        {{-- <div  class="absolute inset-0 -z-10 w-full h-full object-cover">
+        {{-- <div class="absolute inset-0 -z-10 w-full h-full object-cover">
             <img class="object-cover" src="" alt="">
         </div> --}}
         <div class="absolute inset-0 -z-10 h-screen w-full object-cover">
@@ -128,19 +128,24 @@
                         <div
                             class="grid grid-cols-1 items-center justify-between gap-x-20 gap-y-28 md:grid-cols-2 md:gap-x-4 lg:gap-x-32">
                             <div class="space-y-5">
-                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Strategic Investment Planning</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
+                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Strategic Investment
+                                    Planning</p>
+                                <div
+                                    class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
                                     <p class="max-w-md text-base">We work closely with our partners to develop strategic
                                         investment plans that align with their long-term goals. </p>
-                                    <p class="max-w-md text-base">Our planning process includes rigorous market analysis,
+                                    <p class="max-w-md text-base">Our planning process includes rigorous market
+                                        analysis,
                                         financial modeling, and risk assessment to ensure that each project is viable
                                         and sustainable.</p>
 
                                 </div>
                             </div>
                             <div class="space-y-5">
-                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Expertise Across Sectors</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
+                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Expertise Across Sectors
+                                </p>
+                                <div
+                                    class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
                                     <p class="max-w-md text-base">Our team has extensive experience across various
                                         infrastructure sectors, from energy and transportation to water and
                                         telecommunications. </p>
@@ -149,8 +154,10 @@
                                 </div>
                             </div>
                             <div class="space-y-5">
-                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Long-Term Value Creation</p>
-                                <div class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
+                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Long-Term Value Creation
+                                </p>
+                                <div
+                                    class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 pl-10 mr-10 pb-10">
                                     <p class="max-w-md text-base"> We focus on creating long-term value for our partners
                                         and the communities we serve. </p>
                                     <p class="max-w-md text-base">By investing in projects that are designed for
@@ -159,7 +166,8 @@
                                 </div>
                             </div>
                             <div class="space-y-5">
-                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Collaborative Partnerships</p>
+                                <p class="px-10 text-xl font-extrabold uppercase md:text-2xl">Collaborative Partnerships
+                                </p>
                                 <div class="space-y-7 border-b-4 border-l-4 border-dashed border-gray-300 px-6 py-8">
                                     <p class="max-w-md text-base">We believe in the power of collaboration. </p>
                                     <p class="max-w-md text-base">By working closely with governments, developers, and
